@@ -1,0 +1,31 @@
+# === Terraform Specific ===
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+terraform.tfvars
+*.auto.tfvars
+
+# === VS Code Specific ===
+.vscode/
+.history/
+*.code-workspace
+
+# === OS Generated Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Logs ===
+*.log
+
+# === Environment Files ===
+.env
+.env.*
